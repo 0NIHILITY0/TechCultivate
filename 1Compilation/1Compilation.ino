@@ -1,7 +1,7 @@
 #define BLYNK_TEMPLATE_ID "TMPL64AcIzWbK"
 #define BLYNK_TEMPLATE_NAME "TechCultivate"
 #define BLYNK_AUTH_TOKEN "0c7Pp72T-4RpfVN9GqYO_haROCKw7EgU"
-Brother
+
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
