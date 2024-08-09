@@ -34,7 +34,7 @@ int RelayPin1 = 14; // solenoid valve 1
 int RelayPin2 = 15; // solenoid valve 2
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Blynk.begin(auth, ssid, pass);
   delay(1000);
   Wire.begin();
